@@ -1,28 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
 #title-text {
   text-align: center;
-  text-decoration: dashed;
+  text-decoration: underline;
 }
 #align-box {
-  height: 300px;
-  width: auto;
   margin-top: 8.5rem;
+}
+#label-choice {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(82, 53, 20);
+  margin-bottom: 1.2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+#mychoice {
+  margin-top: 1.2em;
+  font-family: "Bungee Spice", sans-serif;
+}
+#result {
+  font-family: "Honk", system-ui;
+  text-shadow: rgba(255, 162, 0, 0.58) 0px 0px 34px;
 }
 #choice {
   margin-top: 10px;
-  height: 25px;
-  width: 200px;
-  font-size: larger;
+  height: 43px;
+  width: 165px;
+  font-size: 17px;
+  border: 0;
+  border-radius: 15px;
+  outline: 0;
+  padding-left: 7px;
+  font-family: "Playwrite NZ", cursive;
+  padding-bottom: 5px;
 }
 #submit-button {
-  margin-top: 10px;
+  margin-top: 1.55rem;
+  height: 35px;
+  width: 150px;
+  border: 1px solid green;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: "Playwrite FR Moderne", cursive;
 }
 #game-box {
   margin: 0 auto;
   height: 300px;
-  width: 500px;
-  background-color: rgb(179, 109, 18);
+  width: 400px;
+  background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border: 0;
+  border-radius: 20%;
 }
