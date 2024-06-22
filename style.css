@@ -1,0 +1,28 @@
+#title-text {
+  text-align: center;
+  text-decoration: dashed;
+}
+#align-box {
+  height: 300px;
+  width: auto;
+  margin-top: 8.5rem;
+}
+#choice {
+  margin-top: 10px;
+  height: 25px;
+  width: 200px;
+  font-size: larger;
+}
+#submit-button {
+  margin-top: 10px;
+}
+#game-box {
+  margin: 0 auto;
+  height: 300px;
+  width: 500px;
+  background-color: rgb(179, 109, 18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

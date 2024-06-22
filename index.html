@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stone Paper Sicssor</title>
+  </head>
+  <body>
+    <h2 id="title-text">
+      Can You <span style="color: green">Win</span> /
+      <span style="color: red">Lose</span> ?
+    </h2>
+    <div id="align-box">
+      <div id="game-box">
+        <label for="choice" id="label-choice">What Will You Choose ?</label>
+        <select name="s-p-s" id="choice">
+          <option value="empty">Choose a Value</option>
+          <option value="stone">Stone</option>
+          <option value="paper">Paper</option>
+          <option value="sicssor">Sicssor</option>
+        </select>
+        <button id="submit-button" onclick="winorloose()">Lock & Check</button>
+      </div>
+    </div>
+  </body>
+</html>
