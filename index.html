@@ -16,12 +16,13 @@
   <div id="align-box">
     <div id="game-box">
       <label for="choice" id="label-choice">What Will You Choose ?</label>
-      <select name="s-p-s" id="choice" onchange="winorloose()">
+      <select name="s-p-s" id="choice">
         <option value="empty">Choose a Value</option>
         <option value="stone">STONE</option>
         <option value="paper">PAPER</option>
         <option value="sicssor">SICSSOR</option>
       </select>
+      <button id="submit-button" onclick="winorloose()">Lock & Check</button>
       <h2 id="mychoice"><span id="choice-val"></span></h2>
       <h2 id="result"></h2>
     </div>

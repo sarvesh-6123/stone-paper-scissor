@@ -23,5 +23,6 @@ function winorloose() {
   } else {
     resText = "Please Enter a Choice :(";
   }
+  button.style.display = "None";
   result.innerHTML = resText;
 }
